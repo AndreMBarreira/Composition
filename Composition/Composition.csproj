@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Entities\Enuns\Enuns.cs" />
+  </ItemGroup>
+
 </Project>
