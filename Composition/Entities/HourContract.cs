@@ -18,5 +18,10 @@ namespace Composition.Entities
             Hours = hours;
         }
 
+        public double TotalValue()
+        {
+            return ValuePerHour * Hours;
+        }
+
     }
 }
